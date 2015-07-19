@@ -1,0 +1,67 @@
+/* Space out content a bit */
+body {
+  padding: 0;
+  margin:0;
+  padding-bottom: 20px;
+}
+
+.tab-panel {
+  padding:10px;
+}
+
+.container-fluid {
+  padding:0 !important;
+}
+
+.kGrid {
+  height: 250px;
+  width:100%;
+}
+
+.tallGrid {
+  height: 500px;
+  width:100%;
+}
+
+input {
+  width:100%;
+}
+
+.node {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.node.fixed {
+  stroke: #f00;
+}
+
+.me {
+  fill: #00c200;
+}
+
+.highlight {
+  fill: #e0e000;
+}
+
+.link {
+  stroke: #777;
+  stroke-opacity: 0.6;
+}
+
+.label-txt {
+  color:#333333 !important;
+  fill:#333333 !important;
+  stroke-width: 0px;
+  font: 10px sans-serif;
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+}
+
+@media print
+{
+  .no-print {
+    display: none !important;
+  }
+}
